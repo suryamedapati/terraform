@@ -39,4 +39,9 @@ terraform.rc
 # Ignore terragrunt cache
 .terragrunt-cache
 
+# Ignore large binary provider executables
+*.exe
+ec2/terraform-provider-aws_*.exe
+
+
 testing/
